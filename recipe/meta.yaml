@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.5.4
+    - python >=3.6
     - pip
   run:
-    - python >=3.5.4
+    - python >=3.6
     - pycryptodome >=3.8.1
     - pyopenssl >=22.0.0
     - setuptools >=39.0.1
