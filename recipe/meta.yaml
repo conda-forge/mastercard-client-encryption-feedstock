@@ -1,5 +1,5 @@
 {% set name = "mastercard-client-encryption" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mastercard-client-encryption-{{ version }}.tar.gz
-  sha256: c360407630ef5067bf839b23b4910227ed93bdbdec6ad572a34e641c1710d5fe
+  sha256: 8ba543708b0676096e4b2a2e1d013331134fcd3d5c05479df7d7e988e252eeeb
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - pycryptodome >=3.8.1
-    - pyopenssl >=22.0.0
+    - pyopenssl >=22.1.0,<=23.2.0
     - setuptools >=39.0.1
     - cryptography >=38.0.0
 
