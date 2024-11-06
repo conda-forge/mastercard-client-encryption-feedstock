@@ -1,5 +1,5 @@
 {% set name = "mastercard-client-encryption" %}
-{% set version = "1.20.0" %}
+{% set version = "1.21.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mastercard-client-encryption-{{ version }}.tar.gz
-  sha256: 17c1065ba5fd8678a152828a3930b7ebf716290b551b774502398794baf62e3b
+  sha256: ce4a3baa349495e45ddd6bc26dae78fdca51fdc7d62d5673378f456d5946ec20
 
 build:
   noarch: python
